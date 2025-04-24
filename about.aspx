@@ -1,0 +1,251 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="RecycleRewardHub.about" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">    
+      <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> Recycle Reward Hub </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="images/row1.jpeg" alt="">
+    </div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span class="text-dark">
+              Recycle Reward Hub
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-dark" href="home.aspx">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="about.aspx">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="services.aspx">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="botals.aspx">Give Bottals</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="withdraw.aspx">Withdraw</a>
+              </li>
+            </ul>
+            <div class="user_option">
+              <a href="uaccount.aspx" class="user_link text-dark">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </a>
+            
+           </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/a1.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                Welcome to Recycle Reward Hub
+              </h2>
+            </div>
+            <p>
+            At Recycle Reward Hub, we believe in the power of collective action to address one of the most pressing environmental challenges of our time: plastic pollution. Founded on the principles of sustainability and community engagement, our organization is dedicated to combating plastic waste through innovative solutions and grassroots initiatives.
+
+            <br>
+            <h3>Our Mission</h3>
+
+Our mission is twofold: to reduce plastic pollution and to incentivize sustainable behavior through our plastic bottle recycling program. By providing individuals with tangible rewards for their recycling efforts, we aim to promote a culture of environmental responsibility and create lasting change.
+
+<h3>What We Do
+</h3>Plastic Bottle Collection:** We operate a network of collection points where individuals can drop off their plastic bottles for recycling. From local recycling centers to mobile collection units, we make it easy and convenient for everyone to participate in our recycling program.
+<h3>
+Environmental Rewards Program:
+</h3> In recognition of their contributions to plastic bottle recycling, we offer participants rewards based on the quantity of bottles they recycle. Our digital rewards platform allows individuals to track their progress, earn points, and redeem rewards for eco-friendly products and experiences.
+              <a href="about.aspx">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+  <section class="client_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container heading_center psudo_white_primary mb_45">
+        <h2>
+     Why It Matters 
+        </h2>
+<p>Plastic pollution poses a significant threat to our planet's ecosystems, wildlife, and public health. By recycling plastic bottles, we not only divert waste from landfills and oceans but also conserve valuable resources and reduce greenhouse gas emissions. Together, we can make a positive impact on the environment and create a more sustainable future for all.</p>
+      </div>
+      <div class="heading_container heading_center psudo_white_primary mb_45">
+        <h2>
+         Join US
+        </h2>
+      </div> <p>  Join us in our mission to turn the tide on plastic pollution and build a cleaner, greener world. Whether you're a passionate environmentalist, a concerned citizen, or a business looking to support sustainable initiatives, there's a place for you in our community. Together, we can make a difference, one plastic bottle at a time.
+</p>
+  </section>
+
+  <!--section -->
+
+
+
+  
+
+   
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Ahamdabad Gujarat
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +91 9998252561
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  recyclerewardhub@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo">
+              Recycle Reward Hub
+            </a>
+            <!--p>
+              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+            </p-->
+            <div class="footer_social">
+              <a href="https://facebook.com">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="htps://twitter.com">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://linkedin.com">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://instagram.com">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="https://pinterest.com">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Opening Hours
+          </h4>
+          <p>
+            Everyday
+          </p>
+          <p>
+            10.00 AM -06.00 PM
+          </p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved.
+        </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>    
+ 
+
+
+
+    
+ 
+
+
+   
+</body>
+</html>
